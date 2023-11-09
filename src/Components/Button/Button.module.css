@@ -1,0 +1,18 @@
+.buttonContainer__button{
+        background-color: #000;
+        border: none;
+        border-radius: 26px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-family: Comfortaa;
+        height: fit-content;
+        width: fit-content;
+        text-transform: uppercase;
+        padding: 7px 16px;
+}
+@media screen and (min-width: 600px){
+.buttonContainer__button {
+        padding: 11px 26px;
+}
+}

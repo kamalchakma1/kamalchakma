@@ -1,0 +1,68 @@
+/* Main Contianer */
+.mainContainer{
+    display: flex; 
+    flex-direction: column;
+    text-align: left;
+    gap: 2vh;
+    margin-top: 8vh;
+    margin-left: 7vw;
+}
+.mainContainer>h5{
+    font-size: 1.8rem;
+   font-family: Comfortaa !important;
+}
+/* Hire Me Button Container */
+.mainContainer__btn{
+    margin-left: 31%;
+    margin-top: 3vh;
+}
+/* Scroll Container */
+.mainContainer__scroll{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    color: #A3A3A3;
+    margin-left: -12%;
+    margin-top: 3vh;
+    opacity: 0.3;
+    animation: scrollAnimation 1s ease infinite alternate;
+}
+.mainContainer__scroll>.body2{
+    letter-spacing: 1px;
+}
+
+/* Animation */
+@keyframes scrollAnimation{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-8%);
+    }
+}
+
+/* Large Screen */
+@media screen and (min-width: 600px){
+/* Main Contianer */
+    .mainContainer {
+        margin-top: 20vh;
+        margin-left: 27vw;
+    }
+    .mainContainer>h5 {
+        font-family: Comfortaa !important;
+        font-size: 4rem;
+    }
+    /* Hire Me Button Container */
+    .mainContainer__btn {
+       margin-left: 29%;
+       margin-top: 5vh;
+    }
+    /* Scroll Container */
+    .mainContainer__scroll {
+        display: flex;
+       cursor: pointer;
+       margin-left: -30%;
+       margin-top: 22vh;
+    }
+    
+}
