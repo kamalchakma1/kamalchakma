@@ -9,7 +9,7 @@ const Hero=()=>{
            <Typography variant="h5"> Hi! I'm Kamal,</Typography>
            <Typography variant="h5">A Software Developer</Typography>
            <div className={style.mainContainer__btn}>
-            <Button title={'Hire Me'}/>
+            <Button title={'HIRE ME'}/>
            </div>
            <div className={style.mainContainer__scroll}>
             <Typography variant="body2" className={style.body2}>Scroll</Typography>
