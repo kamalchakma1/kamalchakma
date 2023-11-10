@@ -59,10 +59,13 @@
     }
     /* Scroll Container */
     .mainContainer__scroll {
-        display: flex;
+       display: flex;
        cursor: pointer;
        margin-left: -30%;
        margin-top: 22vh;
+    }
+    .mainContainer__scroll:hover {
+        color: #000000;
     }
     
 }
