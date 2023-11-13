@@ -1,0 +1,9 @@
+.experienceMain{
+    margin-top: 10vh;
+}
+/* Large Screen */
+@media screen and (min-width: 600px){
+    .experienceMain{
+        margin-top: 26vh;
+    }
+}

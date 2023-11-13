@@ -4,17 +4,20 @@
     flex-direction: column;
     text-align: left;
     gap: 2vh;
-    margin-top: 8vh;
-    margin-left: 7vw;
+    margin-top: 20vh;
+    margin-left: 5vw;
 }
 .mainContainer>h5{
-    font-size: 1.8rem;
+    font-size: 2.8rem;
    font-family: Comfortaa !important;
+}
+.mainContainer>.role{
+    font-size: 28px;
 }
 /* Hire Me Button Container */
 .mainContainer__btn{
-    margin-left: 31%;
-    margin-top: 3vh;
+    margin-left: 32vw;
+    margin-top: 13vh;
 }
 /* Scroll Container */
 .mainContainer__scroll{
@@ -23,7 +26,7 @@
     align-items: center;
     color: #A3A3A3;
     margin-left: -12%;
-    margin-top: 3vh;
+    margin-top: 60%;
     opacity: 0.3;
     animation: scrollAnimation 1s ease infinite alternate;
 }
@@ -52,6 +55,9 @@
         font-family: Comfortaa !important;
         font-size: 4rem;
     }
+    .mainContainer>.role{
+        font-size: 4rem;
+    }
     /* Hire Me Button Container */
     .mainContainer__btn {
        margin-left: 29%;
@@ -63,9 +69,5 @@
        cursor: pointer;
        margin-left: -30%;
        margin-top: 22vh;
-    }
-    .mainContainer__scroll:hover {
-        color: #000000;
-    }
-    
+    }  
 }

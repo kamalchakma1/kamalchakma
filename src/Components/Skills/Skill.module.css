@@ -1,0 +1,11 @@
+.skillMain{
+    margin-top: 10vh;
+}
+
+/* Large Screen */
+
+@media screen and (min-width: 600px){
+    .skillMain{
+        margin-top: 10vh;
+    }
+}

@@ -1,39 +1,35 @@
-&{
-    overflow-x: hidden;
-}
+html {
+    scroll-behavior: smooth;
+  }  
 /* About Main Contianer */
-.aboutMainContainer {
+.MainContainer {
     display: flex;
     flex-direction: column;
-    margin-top: 10vh;
+    position: relative;
+    top: 40vh;
 }
-
 /* Hr Lines */
 .hrLineContainer {
     display: flex;
     position: relative;
 }
-
 .hr1,
 .hr2 {
     border: none;
-    border-top: 0.2px solid #D9D9D9;
+    border-top: 0.2px solid #f2f2f2;
     position: absolute;
     top: 13%;
     width: 98.6vw;
 }
-
 .hr2 {
     right: 0%;
 }
-
 .hrLineContainer__btn {
     position: absolute;
-    left: 36%;
-    top: -2.2vh;
+    left: 37%;
+    top: -15px;
     z-index: 1;
 }
-
 /* Description */
 .desc {
     display: flex;
@@ -45,44 +41,35 @@
     padding: 10%;
     width: 100vw;
 }
-
  .desc__para {
      margin-top: 2vh;
  }
 .desc__para__body2 {
-    text-align: justify;
+    text-align:justify;
+    word-spacing: 2px;
 }
-
 /* Image */
 .desc__pic {
-    /* background-color: gray; */
-    /* border-radius: 50%; */
     height: 230px;
     width: 200px;
 }
-
 .desc__pic>img {
-    /* border-radius: 50%; */
     cursor: pointer;
     height: 100%;
     object-fit: cover;
     width: 100%;
 }
-
 .desc>.hrLine {
     display: none;
 }
-/* Skills */
+/* SKILLS */
 .desc__skills{
-    /* background-color: yellow; */
-    /* border-radius: 50%; */
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     min-height: fit-content;
-    margin-top: -40vh;
-    width: 100vw;
+    width: 92vw;
 }
 .desc__skill{
     border: 0.5px solid #D9D9D9;
@@ -97,19 +84,17 @@
     height: 100%;
     width: 100%;
 }
-
 /* EXPERIENCE */
 .experience{
-    /* background-color: hotpink; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     min-height: fit-content;
     padding: 5% 0;
-    margin-top:-40vh;
     width: 85vw;
 }
 .experience__bodyText{
+    font-size: 13px !important;
     text-align: justify;
     padding-top: 1vh;
 }
@@ -117,14 +102,74 @@
     display: flex;
     flex-direction: column;
 }
+.experience__details__jobTitle{
+    font-size: 18px !important;
+}
+.experience__details__jobPeriod{
+    color: #a0a0a0;
+    font-size: 15px !important;
+}
+/* PROJECTS */
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    height: fit-content;
+    width: 86vw;
+    position: relative;
+    transform: scale(1);
+    top: 0px;
+    left: 0%;
+}
+.projects__project>img{
+    border-radius: 2px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+   }
+.projects__project{
+    border-radius: 2px;
+    background-color: #D9D9D9;
+    position: relative;
+    height: 280px;
+    width: 320px;
+}
+ /* Project details */
+ .projects__project__para{
+    background-color: rgba(252, 121, 121, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgb(0, 255, 174);
+    position: absolute;
+    top: 0%;
+    padding: 5px;
+    transform: translateX(0px);
+    height: 100%;
+    width: 100%;
+ }
 
+/* Project links i.e github */
+.projects__project__para__details__links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 30px;
+    width: inherit;
+    } 
+.projects__project__para__details__links>a{
+    color: rgb(0, 255, 174);
+    text-decoration: none;
+    }
 /* Large Screen */
 @media screen and (min-width: 600px) {
+    /* Horizontal line Container */
     .hrLineContainer__btn {
         top: 5vh;
-        left: 14.5%;
+        left: 13.5%;
     }
-
     /* Description */
     .desc {
         margin-top: -0.5vh;
@@ -133,46 +178,55 @@
         gap: 50px;
         width: 90vw;
     }
-
     .desc>.hrLine {
         display: block;
         border: none;
-        border-top: 0.2px solid #D9D9D9;
+        border-top: 0.2px solid #f2f2f2;
         width: 30vw;
         position: absolute;
-        /* top: 10px; */
+        top: 269px;
         left: 14%;
-        margin-top: -85px;
         transform: rotate(90deg);
     }
-
     .desc__para {
-        margin-top: -10vh;
+        margin-top: -16vh;
+        margin-left: 20px;
+        width: 97vw;
     }
-
     /* Image */
     .desc__pic {
         overflow: hidden;
         height: 290px;
-        width: 270px;
+        width: 473px;
     }
     /* Skills */
     .desc__skills {
         min-height: fit-content;
-        margin-top: -35vh;
-        margin-left: 15vw;
+        margin-top: -115px;
+        margin-left: 320px;
         width: 70vw;
-
     }
     .desc__skill {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 100px;
         width: 100px;
     }
+    .desc__skill:hover{
+       transform: scale(1.2);
+       transition: all 0.5s ease;
+    }
+    .desc__skill>img{
+        border-radius: 50%;
+        height: 92%;
+        width: 92%;
+    }
     /* EXPERIENCE */
     .experience {
-        /* background-color: hotpink; */
-        margin-top: -29.5vh;
-        margin-left: 17vw;
+        margin-top: -120px;
+        margin-left: 320px;
         height: 10vh;
         width: 66vw;
     }
@@ -182,5 +236,54 @@
         justify-content: space-between;
         margin-bottom: 20px;
     }
+    .experience__bodyText{
+        font-size: 16px !important;
 
+    }
+    .experience__details__jobTitle{
+        font-size: 25px !important;
+    }
+    /* PROJECTS */
+    .projects{
+        display: flex;
+        flex-direction: row;
+        width: 66vw;
+        position: relative;
+        transform: scale(1);
+        top: -112px;
+        left: 30%;
+   }
+   .projects__project{
+       display: flex;
+       flex-direction: column;
+       align-items: center;  
+       position: relative;
+       cursor: pointer;
+   }
+   /* Project Image */
+   .projects__project>img{
+      border-radius: 2px;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+   }
+   .projects__project:hover{
+      transform: scale(1.1);
+      transition: all 0.5s ease;
+      z-index: 1;
+   }
+   /* showing project details on hover on project */
+   .projects__project:hover .projects__project__para{
+      display: flex;
+      transition: all 0.5s ease;
+   }
+   /* Project details */
+   .projects__project__para{
+      display: none;
+   }
+   /* Project links i.e github */
+    .projects__project__para__details__links>a:hover{
+    color: blue;
+   }
+  
 }

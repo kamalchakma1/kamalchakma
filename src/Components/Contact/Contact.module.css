@@ -1,0 +1,46 @@
+.contactMainContainer{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+    margin-top: 17vh;
+    width: 98vw;
+}
+
+.socialIcons{
+    display: flex;
+    align-items: center;
+    gap: 10.5px;
+}
+.socialIcons>a{
+    color: #000;
+}
+.title>.header{
+    font-family: Comfortaa;
+    letter-spacing: 3.5px;
+}
+.codedBy{
+    color: rgb(177, 177, 177);
+}
+
+/* Large Screen */
+@media screen and (min-width: 600px){
+    .title>.header{
+        letter-spacing: 8px;
+       word-spacing: 10px;
+    }
+    .socialIcons{
+        gap: 23px;
+    }
+    .contactMain{
+        margin-top: 50vh;
+    }
+    .contactMainContainer{
+        display: flex;
+        margin-top: 4vh;
+    }
+ 
+    
+}

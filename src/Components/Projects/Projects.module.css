@@ -1,0 +1,11 @@
+.projectMain{
+    margin-top: 10vh;
+    margin-bottom: 51vh;
+}
+
+/* Large Screen */
+@media screen and (min-width: 600px){
+    .projectMain{
+        margin-top: 20vh;    
+    }
+}
