@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kamalchakma/static/css/main.302af3d4.css",
-    "main.js": "/kamalchakma/static/js/main.68c74078.js",
+    "main.js": "/kamalchakma/static/js/main.b1ee59a8.js",
     "static/media/dmws.png": "/kamalchakma/static/media/dmws.3411ec2650097eee826a.png",
     "static/media/Kamal Resume Updated.pdf": "/kamalchakma/static/media/Kamal Resume Updated.235ac528a2b33a7a5ec4.pdf",
     "static/media/1670237395012.jpeg": "/kamalchakma/static/media/1670237395012.d34fb4cbc7007df25468.jpeg",
@@ -14,10 +14,10 @@
     "static/media/js.png": "/kamalchakma/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/kamalchakma/index.html",
     "main.302af3d4.css.map": "/kamalchakma/static/css/main.302af3d4.css.map",
-    "main.68c74078.js.map": "/kamalchakma/static/js/main.68c74078.js.map"
+    "main.b1ee59a8.js.map": "/kamalchakma/static/js/main.b1ee59a8.js.map"
   },
   "entrypoints": [
     "static/css/main.302af3d4.css",
-    "static/js/main.68c74078.js"
+    "static/js/main.b1ee59a8.js"
   ]
 }
