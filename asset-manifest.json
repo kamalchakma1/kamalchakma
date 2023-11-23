@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kamalchakma/static/css/main.302af3d4.css",
+    "main.js": "/kamalchakma/static/js/main.68c74078.js",
+    "static/media/dmws.png": "/kamalchakma/static/media/dmws.3411ec2650097eee826a.png",
+    "static/media/Kamal Resume Updated.pdf": "/kamalchakma/static/media/Kamal Resume Updated.235ac528a2b33a7a5ec4.pdf",
+    "static/media/1670237395012.jpeg": "/kamalchakma/static/media/1670237395012.d34fb4cbc7007df25468.jpeg",
+    "static/media/kamal_portfolio.png": "/kamalchakma/static/media/kamal_portfolio.a878f2b8f1857b70eb9e.png",
+    "static/media/physics.png": "/kamalchakma/static/media/physics.86c8d9eba03e29814d2a.png",
+    "static/media/git.png": "/kamalchakma/static/media/git.bad2b1118eff814bb319.png",
+    "static/media/nodejs.png": "/kamalchakma/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/github.png": "/kamalchakma/static/media/github.f11021803f68852df283.png",
+    "static/media/css-3.png": "/kamalchakma/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/kamalchakma/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/kamalchakma/index.html",
+    "main.302af3d4.css.map": "/kamalchakma/static/css/main.302af3d4.css.map",
+    "main.68c74078.js.map": "/kamalchakma/static/js/main.68c74078.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.302af3d4.css",
+    "static/js/main.68c74078.js"
+  ]
+}
