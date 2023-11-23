@@ -1,7 +1,7 @@
 import Box from "../Box/Box"
-import projectImg from "../../images/user.jpg"
 import style from "./Projects.module.css"
 import dmws from "../../images/dmws.png"
+import kamal_portfolio from "../../images/kamal_portfolio.png"
 const Projects=({buttonColors})=>{
 
     const projects={
@@ -18,7 +18,14 @@ const Projects=({buttonColors})=>{
             githubLink:'',
             projectLink:'http://dmwsociety.org/',
         },
-     
+        {
+            id:1,
+            name:'Personal Portfolio',
+            projectImg: kamal_portfolio,
+            projectDesc: 'My Personal portfolio where I am showing my works and about me.',
+            githubLink:'',
+            projectLink:'http://kamalchakma1.github.io/kamalchakma',
+        },
         
     ]
     return(

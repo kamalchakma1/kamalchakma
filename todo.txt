@@ -1,5 +1,0 @@
-1.Add original content
-2.Work on DMWS
-  - Add images from array
-  - Add original content
-  - build and deploy it
