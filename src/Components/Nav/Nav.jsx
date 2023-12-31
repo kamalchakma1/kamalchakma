@@ -1,7 +1,7 @@
 import style from "./Nav.module.css"
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import Brightness4OutlinedIcon from '@mui/icons-material/Brightness4Outlined';
-import kamal_resume from "../../assets/Kamal Resume Updated.pdf"
+import kamal_resume from "../../assets/KamalResume.pdf"
 const Nav=({onClick,isClick})=>{
 
   // Color for Resume Title
