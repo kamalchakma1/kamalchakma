@@ -13,7 +13,7 @@ const Hero=({buttonColors})=>{
     return(
         <div className={style.mainContainer}>
            <Typography variant="h5"> Hi! I'm <span className={style.name}>KAMAL</span>,</Typography>
-           <Typography variant="h5" className={style.role}>A Front-End Developer</Typography>
+           <Typography variant="h5" className={style.role}>A Full Stack Developer</Typography>
            <div className={style.mainContainer__btn}>
             <a href="mailto:mr.kamalchakma@gmail.com">
             <Button title={'HIRE ME'} bgColor={buttonColors}/>
